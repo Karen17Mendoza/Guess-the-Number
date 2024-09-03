@@ -1,5 +1,5 @@
-
 import java.util.Random;
+import java.util.Scanner;
 
 public class GuessTheNumberGame {
     private int targetNumber;
@@ -7,9 +7,18 @@ public class GuessTheNumberGame {
     private Player computerPlayer;
 
     public GuessTheNumberGame() {
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedir el nombre del jugador humano
+        System.out.print("Por favor, ingresa tu nombre: ");
+        String playerName = scanner.nextLine();
+
+        // Inicializar el número objetivo
         Random random = new Random();
         this.targetNumber = random.nextInt(100) + 1;
-        this.humanPlayer = new HumanPlayer("Jugador Humano");
+
+        // Crear jugadores con el nombre proporcionado
+        this.humanPlayer = new HumanPlayer(playerName);
         this.computerPlayer = new ComputerPlayer("Computadora");
     }
 
@@ -31,6 +40,9 @@ public class GuessTheNumberGame {
         // Mostrar el historial de suposiciones de cada jugador
         displayGuesses(humanPlayer);
         displayGuesses(computerPlayer);
+
+        //Mostar mensaje de salida
+        showEndMessage();
     }
 
     private void showWelcomeMessage() {
@@ -64,5 +76,9 @@ public class GuessTheNumberGame {
 
     public void setTargetNumber(int number) {
         this.targetNumber = number;
+    }
+
+    private void showEndMessage() {
+        System.out.println("¡Gracias por jugar!");
     }
 }
