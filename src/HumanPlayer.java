@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 class HumanPlayer extends Player {
-    private Scanner scanner;
+    private final Scanner scanner;
 
-    public HumanPlayer(String name) {
+    // Constructor que acepta un nombre y un objeto Scanner
+    public HumanPlayer(String name, Scanner scanner) {
         super(name);
-        this.scanner = new Scanner(System.in);
+        this.scanner = scanner;
     }
 
     @Override
     public int makeGuess() {
         System.out.print(name + ", ingresa tu suposición: ");
-        int guess = scanner.nextInt(); // Leer el número ingresado por el usuario
-        addGuess(guess); // Guardar suposición en la lista
+        int guess = scanner.nextInt();
+        addGuess(guess);
         return guess;
     }
 }

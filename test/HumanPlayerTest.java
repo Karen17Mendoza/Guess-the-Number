@@ -1,35 +1,47 @@
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.*;
 
 class HumanPlayerTest {
 
     private HumanPlayer humanPlayer;
+    private Scanner scannerMock;
 
     @BeforeEach
     void setUp() {
-        // Usamos "Humano" como nombre para la instancia de HumanPlayer
-        humanPlayer = new HumanPlayer("Humano");
+        // Crear un mock del Scanner
+        scannerMock = mock(Scanner.class);
+
+        // Crear una instancia de HumanPlayer con el Scanner mock
+        humanPlayer = new HumanPlayer("Jugador Humano", scannerMock);
     }
 
     @Test
     void testMakeGuess() {
-        // Simulamos la entrada del usuario, por ejemplo, si el usuario ingresa "50"
-        String simulatedInput = "50\n";
-        InputStream inputStream = new ByteArrayInputStream(simulatedInput.getBytes());
-        System.setIn(inputStream);
+        // Simular la entrada del usuario
+        when(scannerMock.nextInt()).thenReturn(42);
 
+        // Llamar al método MakeGuess
         int guess = humanPlayer.makeGuess();
 
-        // Verificamos que la suposición sea la que simulamos (en este caso, 50)
-        assertEquals(50, guess, "La suposición debería ser 50.");
+        // Verificar que el valor retornado es el esperado
+        assertEquals(42, guess);
 
-        // Verificamos que la suposición se haya guardado en el historial
-        assertEquals(1, humanPlayer.getGuesses().size(), "El historial debería contener exactamente una suposición.");
-        assertEquals(guess, humanPlayer.getGuesses().get(0), "La suposición debería coincidir con la guardada en el historial.");
+        // Verificar que el método addGuess fue llamado con el valor correcto
+        ArrayList<Integer> guesses = (ArrayList<Integer>) humanPlayer.getGuesses();
+        assertEquals(1, guesses.size());
+        assertEquals(42, guesses.get(0));
+
+        // Verificar que se llamó al método nextInt() del Scanner mock
+        verify(scannerMock, times(1)).nextInt();
     }
+
 }

@@ -18,7 +18,7 @@ public class GuessTheNumberGame {
         this.targetNumber = random.nextInt(100) + 1;
 
         // Crear jugadores con el nombre proporcionado
-        this.humanPlayer = new HumanPlayer(playerName);
+        this.humanPlayer = new HumanPlayer(playerName, scanner);
         this.computerPlayer = new ComputerPlayer("Computadora");
     }
 
@@ -54,12 +54,12 @@ public class GuessTheNumberGame {
 
     boolean checkGuess(int guess, Player player) {
         if (guess == targetNumber) {
-            System.out.println("¡" + player.getName() + " ha adivinado correctamente el número!");
+            System.out.println("¡" + player.getName() + " ha adivinado correctamente el número! \uD83D\uDE00"); // 😊
             return true;
         } else if (guess < targetNumber) {
-            System.out.println(player.getName() + ", el número es mayor.");
+            System.out.println(player.getName() + ", el número es mayor. \u2191"); // ↑
         } else {
-            System.out.println(player.getName() + ", el número es menor.");
+            System.out.println(player.getName() + ", el número es menor. \u2193"); // ↓
         }
         return false;
     }
