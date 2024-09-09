@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imagenes/guess the numer.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ComputerPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerPlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

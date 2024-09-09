@@ -45,7 +45,7 @@ El proyecto está implementado en Java y utiliza JUnit y Mockito para pruebas un
 
 ## Historias de usuario
 
-1. **Historia 1:** Registro del Jugador
+**Historia 1:** Registro del Jugador
 
 - **Como:** jugador humano.
 - **Quiero:** poder ingresar mi nombre.
@@ -56,7 +56,7 @@ El proyecto está implementado en Java y utiliza JUnit y Mockito para pruebas un
 * El juego debe solicitar al jugador que ingrese su nombre al inicio.
 * El nombre del jugador debe ser mostrado en los mensajes de retroalimentación y en el historial de intentos.
 
-2. **Historia 2: Hacer Suposición**
+**Historia 2: Hacer Suposición**
 
 - **Como:** jugador humano.
 - **Quiero:** hacer suposiciones sobre el número objetivo.
@@ -67,11 +67,11 @@ El proyecto está implementado en Java y utiliza JUnit y Mockito para pruebas un
 * El jugador debe poder ingresar un número en la consola como su suposición.
 * El juego debe proporcionar retroalimentación sobre si la suposición es correcta, mayor o menor que el número objetivo.
 
-3**Historia 3: Juego de la Computadora**
+**Historia 3: Juego de la Computadora**
 
-**Como:** jugador humano
-**Quiero:** que la computadora haga suposiciones automáticas
-**Para:** que pueda competir contra un oponente que también intenta adivinar el número.
+- **Como:** jugador humano
+- **Quiero:** que la computadora haga suposiciones automáticas
+- **Para:** que pueda competir contra un oponente que también intenta adivinar el número.
 
 **Criterios de Aceptación:**
 
@@ -97,6 +97,6 @@ Java: El lenguaje principal utilizado para desarrollar la lógica del juego y su
 
 **Frameworks y Librerías:**
 
-**JUnit 5:** Usado para la creación de pruebas unitarias, asegurando la calidad y fiabilidad del código.
-*** Mockito:** Utilizado para simular dependencias externas, permitiendo pruebas más aisladas y controladas.
+* **JUnit 5:** Usado para la creación de pruebas unitarias, asegurando la calidad y fiabilidad del código.
+* **Mockito:** Utilizado para simular dependencias externas, permitiendo pruebas más aisladas y controladas.
 Estas herramientas permiten un desarrollo robusto, con un enfoque en la testabilidad y calidad del software.
