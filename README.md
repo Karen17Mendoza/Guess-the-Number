@@ -45,7 +45,7 @@ El proyecto está implementado en Java y utiliza JUnit y Mockito para pruebas un
 
 ## Historias de usuario
 
-**Historia 1:** Registro del Jugador
+**Historia 1: Registro del Jugador**
 
 - **Como:** jugador humano.
 - **Quiero:** poder ingresar mi nombre.
@@ -82,9 +82,9 @@ El proyecto está implementado en Java y utiliza JUnit y Mockito para pruebas un
 
 El proyecto incluye pruebas unitarias para las clases ComputerPlayer y HumanPlayer, utilizando JUnit 5 y Mockito.
 
-* Prueba de _ComputerPlayer_: Se utiliza un mock de _Random_ para simular la generación de números aleatorios y verificar
-  que el método _makeGuess()_ devuelva la suposición correcta.
-* Prueba de _HumanPlayer_: Un mock de _Scanner_ simula la entrada del jugador, asegurando que las suposiciones se registren 
+* Prueba de `_ComputerPlayer_`: Se utiliza un mock de _Random_ para simular la generación de números aleatorios y verificar
+  que el método `_makeGuess()_` devuelva la suposición correcta.
+* Prueba de _HumanPlayer_: Un mock de `_Scanner_` simula la entrada del jugador, asegurando que las suposiciones se registren 
   correctamente en la lista de intentos.
 
 ## Lenguajes y Frameworks
@@ -93,7 +93,7 @@ Este proyecto está desarrollado utilizando las siguientes tecnologías:
 
 **Lenguajes:**
 
-Java: El lenguaje principal utilizado para desarrollar la lógica del juego y sus componentes.
+* **Java:** El lenguaje principal utilizado para desarrollar la lógica del juego y sus componentes.
 
 **Frameworks y Librerías:**
 
