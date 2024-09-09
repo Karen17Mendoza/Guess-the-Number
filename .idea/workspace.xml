@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/ComputerPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guessthenumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guessthenumber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/HumanPlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -43,9 +54,12 @@
     "JUnit.ComputerPlayerTest.executor": "Run",
     "JUnit.ComputerPlayerTest.testMakeGuess.executor": "Run",
     "JUnit.GuessTheNumberGameTest.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.testCheckGuessCorrect.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.testCheckGuessIncorrect.executor": "Run",
     "JUnit.GuessTheNumberGameTest.testHumanGuessEqualsTarget.executor": "Run",
     "JUnit.GuessTheNumberGameTest.testHumanGuessGreaterThanTarget.executor": "Run",
     "JUnit.GuessTheNumberGameTest.testHumanPlayerGuessesCorrectly.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.testHumanPlayerMakesGuess.executor": "Run",
     "JUnit.HumanPlayerTest (1).executor": "Run",
     "JUnit.HumanPlayerTest.executor": "Run",
     "JUnit.HumanPlayerTest.testMakeGuess.executor": "Run",
@@ -53,11 +67,12 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "test1-pruebas",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -70,16 +85,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HumanPlayerTest.testMakeGuess">
-    <configuration name="GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGame" />
+  <component name="RunManager" selected="JUnit.ComputerPlayerTest (1)">
+    <configuration name="ComputerPlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guessthenumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputerPlayerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="guessthenumber" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerPlayerTest" />
       <option name="METHOD_NAME" value="" />
@@ -105,6 +124,25 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerPlayerTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerPlayerTest.testMakeGuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guessthenumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerPlayerTest" />
+      <option name="METHOD_NAME" value="testMakeGuess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanPlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guessthenumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,7 +154,18 @@
       <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading" />
+      <option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guessthenumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,18 +191,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GuessTheNumberGame" />
       <item itemvalue="JUnit.ComputerPlayerTest" />
-      <item itemvalue="JUnit.HumanPlayerTest" />
+      <item itemvalue="JUnit.ComputerPlayerTest (1)" />
+      <item itemvalue="JUnit.ComputerPlayerTest.testMakeGuess" />
+      <item itemvalue="JUnit.HumanPlayerTest (1)" />
       <item itemvalue="JUnit.HumanPlayerTest.testMakeGuess" />
+      <item itemvalue="JUnit.HumanPlayerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerPlayerTest (1)" />
+        <item itemvalue="JUnit.ComputerPlayerTest.testMakeGuess" />
+        <item itemvalue="JUnit.HumanPlayerTest (1)" />
         <item itemvalue="JUnit.HumanPlayerTest.testMakeGuess" />
-        <item itemvalue="JUnit.ComputerPlayerTest" />
-        <item itemvalue="JUnit.ComputerPlayerTest" />
-        <item itemvalue="JUnit.ComputerPlayerTest" />
-        <item itemvalue="Application.GuessTheNumberGame" />
+        <item itemvalue="JUnit.HumanPlayerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,16 +218,5 @@
       <updated>1725324669503</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/HumanPlayerTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

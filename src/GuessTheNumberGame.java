@@ -2,9 +2,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GuessTheNumberGame {
-    private int targetNumber;
-    private Player humanPlayer;
-    private Player computerPlayer;
+    int targetNumber;
+    Player humanPlayer;
+    Player computerPlayer;
 
     public GuessTheNumberGame() {
         Scanner scanner = new Scanner(System.in);
@@ -72,10 +72,6 @@ public class GuessTheNumberGame {
     public static void main(String[] args) {
         GuessTheNumberGame game = new GuessTheNumberGame();
         game.play();
-    }
-
-    public void setTargetNumber(int number) {
-        this.targetNumber = number;
     }
 
     private void showEndMessage() {
