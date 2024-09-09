@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessthenumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guessthenumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/HumanPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +23,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -46,37 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GuessTheNumberGame.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ComputerPlayerTest (1).executor": "Run",
-    "JUnit.ComputerPlayerTest.executor": "Run",
-    "JUnit.ComputerPlayerTest.testMakeGuess.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testCheckGuessCorrect.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testCheckGuessIncorrect.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testHumanGuessEqualsTarget.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testHumanGuessGreaterThanTarget.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testHumanPlayerGuessesCorrectly.executor": "Run",
-    "JUnit.GuessTheNumberGameTest.testHumanPlayerMakesGuess.executor": "Run",
-    "JUnit.HumanPlayerTest (1).executor": "Run",
-    "JUnit.HumanPlayerTest.executor": "Run",
-    "JUnit.HumanPlayerTest.testMakeGuess.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "test1-pruebas",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GuessTheNumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ComputerPlayerTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ComputerPlayerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ComputerPlayerTest.testMakeGuess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testCheckGuessCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testCheckGuessIncorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testHumanGuessEqualsTarget.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testHumanGuessGreaterThanTarget.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testHumanPlayerGuessesCorrectly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GuessTheNumberGameTest.testHumanPlayerMakesGuess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HumanPlayerTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HumanPlayerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HumanPlayerTest.testMakeGuess.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test1-pruebas&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />

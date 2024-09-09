@@ -5,9 +5,9 @@
 1. [Descripción](#descripción)
 2. [Características](#características)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
-4. [Instrucciones del jeugo](#uso)
+4. [Instrucciones del juego](#instrucciones-del-juego)
 
-## Descripción
+## Descripción  
 
 "Guess The Number" es un juego en el que los jugadores intentan adivinar un número objetivo generado aleatoriamente por el sistema. El juego se juega en la consola y permite a un jugador humano competir contra una computadora para adivinar el número en la menor cantidad de intentos posibles.
 
