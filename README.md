@@ -5,7 +5,7 @@
 1. [Descripción](#descripción)
 2. [Características](#características)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
-4. [Instrucciones del jeugo](#uso)
+4. [Instrucciones del juego](#instrucciones-del-juego)
 
 ## Descripción
 

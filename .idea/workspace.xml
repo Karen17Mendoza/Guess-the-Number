@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessthenumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guessthenumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/guessthenumber/HumanPlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/HumanPlayerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -70,7 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "test1-pruebas",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
