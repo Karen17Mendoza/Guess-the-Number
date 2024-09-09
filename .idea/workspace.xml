@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="" />
+    <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/imagenes/guess the numer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessthenumber/GuessTheNumberGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerPlayerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.GuessTheNumberGame.executor": "Run",
+    "Attach to process.pid 11284.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.ComputerPlayerTest (1).executor": "Run",
     "JUnit.ComputerPlayerTest.executor": "Run",
@@ -57,20 +66,34 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/LABORATORIA/Proyectos JAVA/guessthenumber1/imagenes",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LABORATORIA\Proyectos JAVA\guessthenumber1\imagenes" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LABORATORIA\Proyectos JAVA\guessthenumber1\imagenes" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComputerPlayerTest (1)">
+  <component name="RunManager" selected="Application.GuessTheNumberGame">
+    <configuration name="GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGame" />
+      <module name="guessthenumber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComputerPlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guessthenumber" />
       <option name="PACKAGE_NAME" value="" />
@@ -150,17 +173,6 @@
       <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading " />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HumanPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guessthenumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,20 +188,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GuessTheNumberGame" />
       <item itemvalue="JUnit.ComputerPlayerTest" />
       <item itemvalue="JUnit.ComputerPlayerTest (1)" />
       <item itemvalue="JUnit.ComputerPlayerTest.testMakeGuess" />
       <item itemvalue="JUnit.HumanPlayerTest (1)" />
       <item itemvalue="JUnit.HumanPlayerTest.testMakeGuess" />
-      <item itemvalue="JUnit.HumanPlayerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessTheNumberGame" />
         <item itemvalue="JUnit.ComputerPlayerTest (1)" />
         <item itemvalue="JUnit.ComputerPlayerTest.testMakeGuess" />
         <item itemvalue="JUnit.HumanPlayerTest (1)" />
         <item itemvalue="JUnit.HumanPlayerTest.testMakeGuess" />
-        <item itemvalue="JUnit.HumanPlayerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,5 +215,16 @@
       <updated>1725324669503</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

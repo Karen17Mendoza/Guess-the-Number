@@ -7,6 +7,9 @@ public class GuessTheNumberGame {
     Player computerPlayer;
 
     public GuessTheNumberGame() {
+
+        showWelcomeMessage(); // Mostrar mensaje de bienvenida
+
         Scanner scanner = new Scanner(System.in);
 
         // Pedir el nombre del jugador humano
@@ -23,7 +26,6 @@ public class GuessTheNumberGame {
     }
 
     public void play() {
-        showWelcomeMessage(); // Mostrar mensaje de bienvenida
 
         boolean guessed = false;
 
