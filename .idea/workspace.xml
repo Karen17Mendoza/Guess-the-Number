@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4855c5a-77a8-4b65-82eb-ee8e21163ccc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/LABORATORIA/Proyectos JAVA/guessthenumber1/imagenes",
     "project.structure.last.edited": "Project",
@@ -184,6 +187,7 @@
     <list>
       <item itemvalue="Application.GuessTheNumberGame" />
       <item itemvalue="JUnit.ComputerPlayerTest" />
+      <item itemvalue="JUnit.HumanPlayerTest" />
       <item itemvalue="JUnit.ComputerPlayerTest (1)" />
       <item itemvalue="JUnit.ComputerPlayerTest.testMakeGuess" />
       <item itemvalue="JUnit.HumanPlayerTest (1)" />

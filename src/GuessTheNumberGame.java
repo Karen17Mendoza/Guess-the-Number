@@ -1,82 +1,91 @@
 import java.util.Random;
 import java.util.Scanner;
 
+//Clase principal que gestionara el flujo del juego
 public class GuessTheNumberGame {
-    int targetNumber;
-    Player humanPlayer;
-    Player computerPlayer;
+    //Nombramos los atributos de la clase
+    private int targetNumer;
+    private Player humanPlayer;
+    private Player computerPlayer;
 
+    //Agregamos el constructor de la clase GuessTheNumer
     public GuessTheNumberGame() {
-
-        showWelcomeMessage(); // Mostrar mensaje de bienvenida
-
+        //Mensaje de bienvenida
+        showWelcomeMessage();
+        //Creamos un objeto scanner para leer la entrada del usuario
         Scanner scanner = new Scanner(System.in);
-
-        // Pedir el nombre del jugador humano
-        System.out.print("Por favor, ingresa tu nombre: ");
+        //Pedimos el nombre del jugador humano
+        System.out.println("Porfavor, ingrresa tu nombre: ");
         String playerName = scanner.nextLine();
-
-        // Inicializar el número objetivo
+        //Inicializamos el numero objetivo
         Random random = new Random();
-        this.targetNumber = random.nextInt(100) + 1;
-
-        // Crear jugadores con el nombre proporcionado
+        //Que sea un numero del 1 al 100
+        this.targetNumer = random.nextInt(100) + 1;;
+        //Creamos a los jugadores
         this.humanPlayer = new HumanPlayer(playerName, scanner);
         this.computerPlayer = new ComputerPlayer("Computadora");
     }
-
-    public void play() {
-
+    //Creamos el metodo del juego
+    public void  play(){
+        //Inicializamos la suposicion para saber si alguien adivino el numero
         boolean guessed = false;
 
-        while (!guessed) {
-            int humanGuess = humanPlayer.makeGuess();
-            guessed = checkGuess(humanGuess, humanPlayer);
+        //Creamos el bucle del juego
+        while (!guessed){
+            //Turno del jugador humano
+            int humanGuess = humanPlayer.makeGuess();// hace la suposicion
+            guessed = checkGuess(humanGuess,humanPlayer);//Verifica si la suposicion es correcta
 
-            if (guessed) break;
+            //Condicion si adivina la suposicion termina el juego
+            if(guessed) break;
 
-            int computerGuess = computerPlayer.makeGuess();
-            guessed = checkGuess(computerGuess, computerPlayer);
+            //Turno de la computadora
+            int computerGuess = computerPlayer.makeGuess();//Suposicion de la computadora
+            guessed = checkGuess(computerGuess,computerPlayer);//Verifica si es correcta
+
         }
-
-        // Mostrar el historial de suposiciones de cada jugador
+        //Mostramos el historial de suposicion de ambos jugadores
         displayGuesses(humanPlayer);
         displayGuesses(computerPlayer);
 
-        //Mostar mensaje de salida
+        //Mostramos el mensaje de despedida
         showEndMessage();
     }
-
-    private void showWelcomeMessage() {
-        System.out.println("¡Bienvenido al juego de adivinar el número!");
-        System.out.println("El objetivo del juego es adivinar un número entre 1 y 100.");
-        System.out.println("Competirás contra la computadora para ver quién lo adivina primero.");
-        System.out.println("¡Buena suerte!\n");
+    //Metodo para el mensaje de bienvenida
+    public void showWelcomeMessage() {
+        System.out.println("Bienvenido al juego de adivinar el número!");
+        System.out.println("El objetivo del juego es adivinar un número entre el 1 y 100");
+        System.out.println("Competiras contra la computadora para ver quien lo adivina primero");
+        System.out.println("!BUENA SUERTE!\n");
     }
-
-    boolean checkGuess(int guess, Player player) {
-        if (guess == targetNumber) {
-            System.out.println("¡" + player.getName() + " ha adivinado correctamente el número! \uD83D\uDE00"); // 😊
+    //Metodo para verificar la suposicion es correcta
+    private boolean checkGuess(int guess, Player player) {
+        //Creamos la condicional
+        if (guess == targetNumer) {
+            System.out.println("¡" + player.getName() + " ha adivinado correctamente el número! \uD83D\uDE0A ");
             return true;
-        } else if (guess < targetNumber) {
-            System.out.println(player.getName() + ", el número es mayor. \u2191"); // ↑
+        } else if (guess < targetNumer) {
+            System.out.println(player.getName() + ", el número es mayor. ↑");
         } else {
-            System.out.println(player.getName() + ", el número es menor. \u2193"); // ↓
+            System.out.println(player.getName() + ", el número es menor. ↓");
         }
+        //Retornafalse si no adivino correctamente
         return false;
     }
-
+    //Metodo para mostrar los intentos
     private void displayGuesses(Player player) {
-        System.out.println(player.getName() + " hizo " + player.getGuesses().size() + " intentos.");
+        System.out.println(player.getName() + " hizo " + player.getGuesses().size() + " intentos. ");
         System.out.println("Intentos: " + player.getGuesses());
     }
-
-    public static void main(String[] args) {
-        GuessTheNumberGame game = new GuessTheNumberGame();
-        game.play();
-    }
-
+    //Metodo que muestra el mensaje de despedida
     private void showEndMessage() {
-        System.out.println("¡Gracias por jugar!");
+        System.out.println("!Gracias por jugar!");
+    }
+    //Metodo principal que inicia el juego
+    public static void main(String[] args) {
+        //Creamos el juego
+        GuessTheNumberGame game =new GuessTheNumberGame();
+        //Comenzar a jugar
+        game.play();
     }
 }
